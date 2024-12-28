@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Pytorch
+*.pt
+*.pkl
+
+output/
+logs/
+work_dirs/
+dinov2_weights/
+
+*.DS_Store

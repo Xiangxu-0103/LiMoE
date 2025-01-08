@@ -19,19 +19,21 @@
     <sup>5</sup>S-Lab, NTU
 </div>
 
+<br/>
+
 <div align="center">
     <a href="" target='_blank'>
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
-    </a>
+    </a>&nbsp;
     <a href="https://xiangxu-0103.github.io/LiMoE" target='_blank'>
         <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-blue">
-    </a>
-    <a href="" target='_blank'>
+    </a>&nbsp;
+    <a >
         <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-pink">
-    </a>
+    </a>&nbsp;
     <a href="" target='_blank'>
         <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
-    </a>
+    </a>&nbsp;
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FXiangxu-0103%2FLiMoE&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/>
   </a>
@@ -58,15 +60,21 @@ LiMoE is a framework that integrates the Mixture of Experts (MoE) paradigm into 
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
 
+
+## :gear: Installation
+
 For details related to installation and environment setups, kindly refer to [INSTALL.md](./docs/INSTALL.md).
+
 
 ## :hotsprings: Data Preparation
 
 Kindly refer to [DATA_PREPAER.md](./docs/DATA_PREPAER.md) for the details to prepare the datasets.
 
+
 ## :rocket: Getting Started
 
 To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs/GET_STARTED.md).
+
 
 ## :bar_chart: Main Results
 

@@ -650,9 +650,13 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
+## 
+
+
 # License
 
-This work is under the [Apache 2.0 license](LICENSE).
+This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific implementations in this codebase might be with other licenses. Kindly refer to [LICENSE.md]() for a more careful check, if you are using our code for commercial matters.
+
 
 # Citation
 
@@ -666,6 +670,7 @@ If you find this work helpful for your research, please kindly consider citing o
     year = {2025}
 }
 ```
+
 
 # Acknowledgments
 

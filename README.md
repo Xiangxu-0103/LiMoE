@@ -23,7 +23,7 @@
 <br/>
 
 <div align="center">
-    <a href="" target='_blank'>
+    <a href="https://arxiv.org/abs/2501.04004" target='_blank'>
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
     </a>&nbsp;
     <a href="https://xiangxu-0103.github.io/LiMoE" target='_blank'>
@@ -42,22 +42,23 @@
 
 
 # About
+
 LiMoE is a framework that integrates the Mixture of Experts (MoE) paradigm into LiDAR data representation learning to synergistically combine multiple representations, such as range images, sparse voxels, and raw points. The framework consists of three stages: i) Image-to-LiDAR pretraining, which transfers prior knowledge from images to point clouds across different representations; ii) Contrastive Mixture Learning (CML), which uses MoE to adaptively activate relevant attributes from each representation and distills these mixed features into a unified 3D network; iii) Semantic Mixture Supervision (SMS), which combines semantic logits from multiple representations to boost downstream segmentation performance.
 
-<img src="docs/figs/limoe.png" align="center" width="100%">
+<img src="docs/figs/framework.png" align="center" width="100%">
 
 
 ## :memo: Updates
 
-- \[2025.01\] - Introducing the :people_hugging: **LiMoE** project! For more details, kindly refer to our [Project Page](https://ldkong.com/LiMoE) and [Preprint](). :rocket:
+- \[2025.01\] - Introducing the :people_hugging: **LiMoE** project! For more details, kindly refer to our [Project Page](https://ldkong.com/LiMoE) and [Preprint](https://arxiv.org/abs/2501.04004). :rocket:
 
 
 # Table of Content
 
-- [Installation](#installation)
-- [Data Preparation](#data-preparation)
-- [Getting Started](#getting-started)
-- [Main Results](#main-results)
+- [Installation](#gear-installation)
+- [Data Preparation](#hotsprings-data-preparation)
+- [Getting Started](#rocket-getting-started)
+- [Main Results](#bar_chart-main-results)
 - [License](#license)
 - [Citation](#citation)
 - [Acknowledgments](#acknowledgments)

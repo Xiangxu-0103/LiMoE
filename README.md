@@ -447,7 +447,13 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
 </table>
 
 
-## Out-of-Distribution 3D Robustness Study
+## Expert Activation Paths
+| ![heatmaps](./docs/figs/paths.png) |
+|:-:|
+| Visual interpretations of the expert activation paths in Contrastive Mixture Learning (CML). The experts are #1 range view, #2 voxel, and #3 point, respectively. |
+
+
+## Out-of-Distribution 3D Robustness
 
 <table>
     <tr>
@@ -651,7 +657,11 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
-## 
+
+## Cosine Similarity
+| ![heatmaps](./docs/figs/heatmaps.png) |
+|:-:|
+| Cosine similarity between learned features of a query point (denoted as the red dot) and: (1) the features of the image of the same scene (the first row); and (2) the features of the LiDAR points projected onto the image (the second row). Best viewed in colors. |
 
 
 # License
@@ -667,7 +677,7 @@ If you find this work helpful for your research, please kindly consider citing o
 @article{xu2025limoe,
     title = {LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes},
     author = {Xu, Xiang and Kong, Lingdong and Shuai, Hui and Pan, Liang and Liu, Ziwei and Liu, Qingshan},
-    journal = {arXiv preprint arXiv:2501.},
+    journal = {arXiv preprint arXiv:2501.04004},
     year = {2025}
 }
 ```

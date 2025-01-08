@@ -1,6 +1,7 @@
 <div align="right">English | <a href="./README_CN.md">简体中文</a></div>
 
 <div align="center">
+    <img src="figs/logo.png" align="center" width="25%">
     <h2><strong>LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes</strong></h2>
 </div>
 
@@ -654,11 +655,11 @@ This work is under the [Apache 2.0 license](LICENSE).
 
 If you find this work helpful for your research, please kindly consider citing our paper:
 
-```latex
+```bibtex
 @article{xu2025limoe,
     title = {LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes},
     author = {Xu, Xiang and Kong, Lingdong and Shuai, Hui and Pan, Liang and Liu, Ziwei and Liu, Qingshan},
-    journal = {arXiv preprint arXiv:},
+    journal = {arXiv preprint arXiv:2501.},
     year = {2025}
 }
 ```

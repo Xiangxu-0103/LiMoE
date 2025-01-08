@@ -1,7 +1,7 @@
 <div align="right">English | <a href="./README_CN.md">简体中文</a></div>
 
 <div align="center">
-    <img src="figs/logo.png" align="center" width="25%">
+    <img src="./docs/figs/logo.png" align="center" width="12.5%">
     <h2><strong>LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes</strong></h2>
 </div>
 
@@ -12,7 +12,7 @@
     <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
     <a href="https://liuziwei7.github.io/" target='_blank'>Ziwei Liu</a><sup>5</sup>&nbsp;&nbsp;&nbsp;
     <a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ" target='_blank'>Qingshan Liu</a><sup>4</sup>
-    </br>
+    </br></br>
     <sup>1</sup>NUAA&nbsp;&nbsp;&nbsp;
     <sup>2</sup>NUS&nbsp;&nbsp;&nbsp;
     <sup>3</sup>Shanghai AI Lab&nbsp;&nbsp;&nbsp;
@@ -41,17 +41,18 @@
 </div>
 
 
-## About
-
+# About
 LiMoE is a framework that integrates the Mixture of Experts (MoE) paradigm into LiDAR data representation learning to synergistically combine multiple representations, such as range images, sparse voxels, and raw points. The framework consists of three stages: i) Image-to-LiDAR pretraining, which transfers prior knowledge from images to point clouds across different representations; ii) Contrastive Mixture Learning (CML), which uses MoE to adaptively activate relevant attributes from each representation and distills these mixed features into a unified 3D network; iii) Semantic Mixture Supervision (SMS), which combines semantic logits from multiple representations to boost downstream segmentation performance.
 
 <img src="docs/figs/limoe.png" align="center" width="100%">
 
-## Updates
 
-- \[2025.01\] - Our paper is available on arXiv.
+## :memo: Updates
 
-## Outline
+- \[2025.01\] - Introducing the :people_hugging: **LiMoE** project! For more details, kindly refer to our [Project Page](https://ldkong.com/LiMoE) and [Preprint](). :rocket:
+
+
+# Table of Content
 
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
@@ -59,27 +60,27 @@ LiMoE is a framework that integrates the Mixture of Experts (MoE) paradigm into 
 - [Main Results](#main-results)
 - [License](#license)
 - [Citation](#citation)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgments](#acknowledgments)
 
 
-## :gear: Installation
+# :gear: Installation
 
 For details related to installation and environment setups, kindly refer to [INSTALL.md](./docs/INSTALL.md).
 
 
-## :hotsprings: Data Preparation
+# :hotsprings: Data Preparation
 
 Kindly refer to [DATA_PREPAER.md](./docs/DATA_PREPAER.md) for the details to prepare the datasets.
 
 
-## :rocket: Getting Started
+# :rocket: Getting Started
 
 To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs/GET_STARTED.md).
 
 
-## :bar_chart: Main Results
+# :bar_chart: Main Results
 
-### Comparisons of state-of-the-art pretraining methods
+## Comparisons of State-of-the-Art Pretraining Methods
 
 <table>
     <tr>
@@ -293,7 +294,8 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
-### Domain generalization study
+
+## Domain Generalization Study
 
 <table>
     <tr>
@@ -443,7 +445,8 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
-### Out-of-distribution 3D robustness study
+
+## Out-of-Distribution 3D Robustness Study
 
 <table>
     <tr>
@@ -647,11 +650,11 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
-## License
+# License
 
 This work is under the [Apache 2.0 license](LICENSE).
 
-## Citation
+# Citation
 
 If you find this work helpful for your research, please kindly consider citing our paper:
 
@@ -664,7 +667,7 @@ If you find this work helpful for your research, please kindly consider citing o
 }
 ```
 
-## Acknowledgements
+# Acknowledgments
 
 This work is developed based on the [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) codebase.
 

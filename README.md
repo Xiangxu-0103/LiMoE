@@ -448,10 +448,15 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
 
 
 ## Expert Activation Paths
-| ![heatmaps](./docs/figs/paths.png) |
+| ![paths](./docs/figs/paths.png) |
 |:-:|
 | Visual interpretations of the expert activation paths in Contrastive Mixture Learning (CML). The experts are #1 range view, #2 voxel, and #3 point, respectively. |
 
+
+## Point-Wise Top-1 Activation
+| ![activation1](./docs/figs/activation1.png) |
+|:-:|
+| Point-wise top-1 activation path in the Semantic Mixture Supervision (SMS) stage. It highlights the most activated representation for each point during the SMS stage, illustrating how different representations contribute to semantic segmentation based on spatial and object-specific characteristics. Best viewed in colors. |
 
 ## Out-of-Distribution 3D Robustness
 
@@ -664,9 +669,17 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
 | Cosine similarity between learned features of a query point (denoted as the red dot) and: (1) the features of the image of the same scene (the first row); and (2) the features of the LiDAR points projected onto the image (the second row). Best viewed in colors. |
 
 
+## Qualitative Assessment
+| ![qualitative1](./docs/figs/qualitative1.png) |
+|:-:|
+| Qualitative assessments of state-of-the-art pretraining methods, pretrained on nuScenes and fine-tuned on SemanticKITTI with 1% annotations. The error maps depict correct and incorrect predictions in gray and red, respectively. Best viewed in colors. |
+
+
 # License
 
-This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific implementations in this codebase might be with other licenses. Kindly refer to [LICENSE.md]() for a more careful check, if you are using our code for commercial matters.
+This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific implementations in this codebase might be with other licenses. 
+
+Kindly refer to [LICENSE.md](./docs/LICENSE.md) for a more careful check, if you are using our code for commercial matters.
 
 
 # Citation

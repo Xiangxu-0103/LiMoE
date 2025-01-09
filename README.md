@@ -26,13 +26,13 @@
     <a href="https://arxiv.org/abs/2501.04004" target='_blank'>
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
     </a>&nbsp;
-    <a href="https://xiangxu-0103.github.io/LiMoE" target='_blank'>
+    <a href="https://ldkong.com/LiMoE" target='_blank'>
         <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-blue">
     </a>&nbsp;
     <a >
         <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-pink">
     </a>&nbsp;
-    <a href="" target='_blank'>
+    <a >
         <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
     </a>&nbsp;
     <a href="https://hits.seeyoufarm.com">

@@ -50,7 +50,8 @@ LiMoE is a framework that integrates the Mixture of Experts (MoE) paradigm into 
 
 ## :memo: Updates
 
-- \[2025.01\] - Introducing the :people_hugging: **LiMoE** project! For more details, kindly refer to our [Project Page](https://ldkong.com/LiMoE) and [Preprint](https://arxiv.org/abs/2501.04004). :rocket:
+- \[2025.02\] - Our paper **LiMoE** has been accepted to **CVPR 2025**! :tada:
+- \[2025.01\] - Introducing the :family_man_boy_boy: **LiMoE** project! For more details, kindly refer to our [Project Page](https://ldkong.com/LiMoE) and [Preprint](https://arxiv.org/abs/2501.04004). :rocket:
 
 
 # Table of Content

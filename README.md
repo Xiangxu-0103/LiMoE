@@ -40,19 +40,16 @@
   </a>
 </div>
 
-
 # About
 
 LiMoE is a framework that integrates the Mixture of Experts (MoE) paradigm into LiDAR data representation learning to synergistically combine multiple representations, such as range images, sparse voxels, and raw points. The framework consists of three stages: i) Image-to-LiDAR pretraining, which transfers prior knowledge from images to point clouds across different representations; ii) Contrastive Mixture Learning (CML), which uses MoE to adaptively activate relevant attributes from each representation and distills these mixed features into a unified 3D network; iii) Semantic Mixture Supervision (SMS), which combines semantic logits from multiple representations to boost downstream segmentation performance.
 
 <img src="docs/figs/framework.png" align="center" width="100%">
 
-
 ## :memo: Updates
 
 - \[2025.02\] - Our paper **LiMoE** has been accepted to **CVPR 2025**! :tada:
 - \[2025.01\] - Introducing the :family_man_boy_boy: **LiMoE** project! For more details, kindly refer to our [Project Page](https://ldkong.com/LiMoE) and [Preprint](https://arxiv.org/abs/2501.04004). :rocket:
-
 
 # Table of Content
 
@@ -64,21 +61,17 @@ LiMoE is a framework that integrates the Mixture of Experts (MoE) paradigm into 
 - [Citation](#citation)
 - [Acknowledgments](#acknowledgments)
 
-
 # :gear: Installation
 
 For details related to installation and environment setups, kindly refer to [INSTALL.md](./docs/INSTALL.md).
-
 
 # :hotsprings: Data Preparation
 
 Kindly refer to [DATA_PREPAER.md](./docs/DATA_PREPAER.md) for the details to prepare the datasets.
 
-
 # :rocket: Getting Started
 
 To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs/GET_STARTED.md).
-
 
 # :bar_chart: Main Results
 
@@ -296,7 +289,6 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
-
 ## Domain Generalization Study
 
 <table>
@@ -447,16 +439,16 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
-
 ## Expert Activation Paths
-| ![paths](./docs/figs/paths.png) |
-|:-:|
+
+|                                                                  ![paths](./docs/figs/paths.png)                                                                  |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Visual interpretations of the expert activation paths in Contrastive Mixture Learning (CML). The experts are #1 range view, #2 voxel, and #3 point, respectively. |
 
-
 ## Point-Wise Top-1 Activation
-| ![activation1](./docs/figs/activation1.png) |
-|:-:|
+
+|                                                                                                                                            ![activation1](./docs/figs/activation1.png)                                                                                                                                             |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Point-wise top-1 activation path in the Semantic Mixture Supervision (SMS) stage. It highlights the most activated representation for each point during the SMS stage, illustrating how different representations contribute to semantic segmentation based on spatial and object-specific characteristics. Best viewed in colors. |
 
 ## Out-of-Distribution 3D Robustness
@@ -663,25 +655,23 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](./docs
     </tr>
 </table>
 
-
 ## Cosine Similarity
-| ![heatmaps](./docs/figs/heatmaps.png) |
-|:-:|
+
+|                                                                                                                 ![heatmaps](./docs/figs/heatmaps.png)                                                                                                                 |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Cosine similarity between learned features of a query point (denoted as the red dot) and: (1) the features of the image of the same scene (the first row); and (2) the features of the LiDAR points projected onto the image (the second row). Best viewed in colors. |
 
-
 ## Qualitative Assessment
-| ![qualitative1](./docs/figs/qualitative1.png) |
-|:-:|
-| Qualitative assessments of state-of-the-art pretraining methods, pretrained on nuScenes and fine-tuned on SemanticKITTI with 1% annotations. The error maps depict correct and incorrect predictions in gray and red, respectively. Best viewed in colors. |
 
+|                                                                                                       ![qualitative1](./docs/figs/qualitative1.png)                                                                                                        |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Qualitative assessments of state-of-the-art pretraining methods, pretrained on nuScenes and fine-tuned on SemanticKITTI with 1% annotations. The error maps depict correct and incorrect predictions in gray and red, respectively. Best viewed in colors. |
 
 # License
 
-This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific implementations in this codebase might be with other licenses. 
+This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific implementations in this codebase might be with other licenses.
 
 Kindly refer to [LICENSE.md](./docs/LICENSE.md) for a more careful check, if you are using our code for commercial matters.
-
 
 # Citation
 
@@ -695,7 +685,6 @@ If you find this work helpful for your research, please kindly consider citing o
     year = {2025}
 }
 ```
-
 
 # Acknowledgments
 

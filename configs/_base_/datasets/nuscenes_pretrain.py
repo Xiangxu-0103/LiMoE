@@ -76,7 +76,7 @@ train_pipeline = [
         crop_center=True),
     dict(type='FlipHorizontal'),
     dict(
-        type='SuperflowInputs',
+        type='LiMoEInputs',
         keys=[
             'points', 'imgs', 'pairing_points', 'pairing_images', 'superpixels'
         ])

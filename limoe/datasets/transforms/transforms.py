@@ -23,7 +23,7 @@ class ResizedCrop(BaseTransform):
         self.crop_center = crop_center
 
     def transform(self, results: dict) -> dict:
-        images = resize['imgs']
+        images = results['imgs']
         superpixels = results['superpixels'].unsqueeze(1)
         pairing_points = results['pairing_points']
         pairing_images = results['pairing_images']

@@ -72,6 +72,7 @@ class SLidR(BaseModel):
         features = self.backbone_2d(images)
         features = self.head_2d(features)
         features = F.normalize(features, p=2, dim=1)
+        return features
 
     def loss(self, inputs: dict,
              data_samples: SampleList) -> Dict[str, Tensor]:

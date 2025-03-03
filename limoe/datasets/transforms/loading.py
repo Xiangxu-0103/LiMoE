@@ -67,7 +67,7 @@ class LoadMultiModalityData(BaseTransform):
             # transform from global frame to the ego vehicle frame for the
             # timestamp of the image.
             pc.translate(-results['images'][cam]['ego2global_translation'])
-            pc.rotate(results['images'][cam]['ego2global_rotation'.T])
+            pc.rotate(results['images'][cam]['ego2global_rotation'].T)
 
             # transform from ego to the camera.
             pc.translate(-results['images'][cam]['sensor2ego_translation'])

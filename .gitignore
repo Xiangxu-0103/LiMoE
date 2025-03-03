@@ -5,6 +5,7 @@ __pycache__/
 *.pt
 *.pkl
 
+data/
 output/
 logs/
 work_dirs/

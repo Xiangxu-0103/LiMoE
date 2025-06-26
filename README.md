@@ -678,10 +678,11 @@ Kindly refer to [LICENSE.md](./docs/LICENSE.md) for a more careful check, if you
 If you find this work helpful for your research, please kindly consider citing our paper:
 
 ```bibtex
-@article{xu2025limoe,
+@inproceedings{xu2025limoe,
     title = {LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes},
     author = {Xu, Xiang and Kong, Lingdong and Shuai, Hui and Pan, Liang and Liu, Ziwei and Liu, Qingshan},
-    journal = {arXiv preprint arXiv:2501.04004},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    pages = {27368--27379},
     year = {2025}
 }
 ```

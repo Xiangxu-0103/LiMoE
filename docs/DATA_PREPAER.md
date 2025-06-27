@@ -3,7 +3,7 @@
 ## Overall Structure
 
 ```
-FRNet
+LiMoE
 ├── data
 │   ├── nuscenes
 │   │   ├── lidarseg
